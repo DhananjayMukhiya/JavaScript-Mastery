@@ -1,0 +1,63 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease;
+}
+
+/* Parent container */
+.parent {
+    margin-top: 100px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Buttons (color boxes) */
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.button:hover {
+    transform: scale(1.1);
+}
+
+/* Individual colors */
+#gray {
+    background-color: gray;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Text below */
+h2 {
+    margin-top: 30px;
+    font-size: 18px;
+}
